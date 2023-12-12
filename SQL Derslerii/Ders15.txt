@@ -1,0 +1,6 @@
+DISTINCT - Tablemizdeki eyni xarakterleri bir deneye cevirir
+
+
+
+----------------------CODE----------------------
+SELECT DISTINCT Sehir from Personeller

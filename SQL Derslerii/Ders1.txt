@@ -1,0 +1,1 @@
+SQL - o demekdir ki, bizim lazimli ve coxlu vacibi melumatlarimizi saxlamag ucun istifade olunur.Meselen bizim mektebimiz var orada 5000 telebe var onlari kagiz uzerinde saxlamagdansa DataBase saxlamag daha serfelidir ve yaxud lazimli melumatimiz varsa bize SQL(DataBase) lazim olacaq.

@@ -1,0 +1,5 @@
+Between - Sertimizdeki araligi bize gosterir
+--Select * from Personeller Where YEAR(DogumTarihi) BetWeen 1950 and 1965
+
+In - "or" mentiqi ile isleyir
+--Select Adi from Personeller Where Sehir In('London','Tacoma','KirkLand')

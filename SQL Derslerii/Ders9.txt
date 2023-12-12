@@ -1,0 +1,9 @@
+Escape - eyer bizim adimiz ve ya soy adimiz "_  ve ya %" ile olarsa kodumuz bizi basa dusmur ona gorede Escapeden istifade edirik.
+
+Select * from Personeller Where Adi Like '[_]%'
+
+Select * from Personeller Where Adi Like '?_%' Escape '?'
+
+Select * from Personeller Where SoyAdi Like '[%]%'
+
+Select * from Personeller Where SoyAdi Like '?%%' Escape '?'

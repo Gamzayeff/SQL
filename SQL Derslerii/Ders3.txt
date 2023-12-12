@@ -1,0 +1,31 @@
+Select - Bize secilen datani table olaraq ekrana cixarir. Nece isletmek olur."Selecet" yazib qabagina datamizi yaziriq
+
+Alias - Biz select - den istifade edende table - in kolonu default olaraq oz qoydugu ad gelir.Biz alias - dan istifade ederek tablenin kalonunun adini deyise bilerik.
+
+
+From - Bize NortWinde-da lazim olan neyi ise istifade etmek ucun istifade olunurs 
+
+Convert & Cast - ikiside Type Cast eliyir
+
+
+-----------------------------------CODE-----------------------------------
+
+
+--select 3
+--select 'eli hemzeyev'
+
+
+--Select * from Personeller
+
+--Select Adi, Soyadi from Personeller
+
+--Select 3 as Number
+
+--Select Adi, Soyadi from Personeller
+--Select Adi + ' ' + Soyadi [Personel Bilgiler] from Personeller
+
+
+--Select Adi + ' ' + IseBaslamaTarihi from Personeller
+
+--Select Adi + ' ' + Convert(nvarchar, IseBaslamaTarihi) [Ise Baslama Tarihi] from Personeller
+--Select Adi + ' ' + Cast(IseBaslamaTarihi as nvarchar) from Personeller

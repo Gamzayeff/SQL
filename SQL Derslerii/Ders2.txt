@@ -1,0 +1,1 @@
+Northwind - verilənlər bazası Microsoft tərəfindən SQL Server və Microsoft Access daxil olmaqla bəzi məhsullarının xüsusiyyətlərini nümayiş etdirmək üçün istifadə edilən nümunə verilənlər bazasıdır.

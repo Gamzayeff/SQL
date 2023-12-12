@@ -1,0 +1,4 @@
+TOP - Tablemizdeki ne qe kalon isdesen o qeder kalon cixaracaq
+
+----------------CODE----------------
+SELECT TOP 5 * from Personeller

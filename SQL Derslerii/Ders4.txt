@@ -1,0 +1,27 @@
+Where - c# daki if kimidir.
+And - c# daki kimi eyni isi hell edir
+Or - c# daki kimi eyni isi hell edir
+
+
+------------------------------CODE------------------------------
+Select * from Personeller
+
+Select * from Personeller Where Sehir = 'London'
+
+Select * from Personeller Where BagliCalistigiKisi < 5
+
+Select * from Personeller Where Sehir = 'London' and Ulke = 'UK'
+
+Select * from Personeller Where UnvanEki = 'Mr.' or Sehir = 'Seattle'
+
+Select * from Personeller Where PersonelID <> 5
+
+
+Select * from Personeller Where YEAR(IseBaslamaTarihi) > 1992
+
+Select * from Personeller Where Day(DogumTarihi) <> 08 
+
+
+Select * from Personeller Where YEAR(DogumTarihi) > 1950 and YEAR(DogumTarihi) < 1965
+
+Select Adi from Personeller Where Sehir = 'London' or Sehir = 'Tacoma' or Sehir = 'Kirkland'

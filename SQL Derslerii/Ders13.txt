@@ -1,0 +1,28 @@
+GETDATE - Bu gunki tarixi verir
+
+DATEADD - indiki vaxta gun,ay ve il daxil ede bilirik
+
+DATEDIFF - Iki tarix arasinda ayi,gunu ve ili hesabliyir
+
+DATEPART - Verilen tarixin hefetin, ayin ve ya ilin necenci gunu oldugunu hesablayir
+
+
+-----------------------CODE-----------------------
+
+
+SELECT GETDATE()
+
+
+SELECT DATEADD(DAY, 999, GETDATE())
+SELECT DATEADD(MONTH, 999, GETDATE())
+SELECT DATEADD(YEAR, 999, GETDATE())
+
+
+SELECT DATEDIFF(DAY, '05.09.1992', GETDATE())
+SELECT DATEDIFF(MONTH, '05.09.1992', GETDATE())
+SELECT DATEDIFF(YEAR, '05.09.1992', GETDATE())
+
+
+SELECT DATEPART(DW, GETDATE())
+SELECT DATEPART(MONTH, GETDATE())
+SELECT DATEPART(YEAR, GETDATE())

@@ -1,0 +1,63 @@
+LEFT - Soldan verilen reqem qeder herf ve ya reqem secir
+
+RIGHT - Sagdan verilen reqem qeder herf ve ya reqem secir
+
+UPPER - Secilmis Tapleyi boyuk herfe cevirir
+
+LOWER - Secilmis Tableyi kicik herfe cevirir
+
+SUBSTRING - index anlayisi ile isleyir
+
+LTRIM - Soldan bosluqlari silir
+
+RTRIM - Sagdan bosluqlari silir
+
+REVERSE - Tersine cevirir
+
+REPLACE - Bir xarakterin gosterilen xarakterle deyisdirilmesi
+
+CHARINDEX - Verilen xarakterin necenci yerde oldugunu gosterir indexini yox
+
+
+
+
+--------------------------------CODE--------------------------------
+Use Northwind
+
+Select LEFT(Adi, 2) from Personeller
+
+
+Select RIGHT(Adi, 3) from Personeller
+
+
+Select UPPER(Adi) from Personeller
+
+
+Select LOWER(Adi) from Personeller
+
+
+Select SUBSTRING(SoyAdi, 3, 2) from Personeller
+
+
+Select '       Gencay'
+Select LTRIM('       Gencay')
+
+
+Select 'Gencay		'
+Select RTRIM('Gencay		')
+
+
+Select REVERSE(Adi) from Personeller
+
+
+Select REPLACE('MENIM ADIM ELIDIR','ELIDIR','SALAM')
+
+
+Select Adi, CHARINDEX('a', Adi) from Personeller
+Select MusteriAdi, CHARINDEX(' ', MusteriAdi) from Musteriler
+
+Select MusteriAdi from Musteriler
+Select SUBSTRING(MusteriAdi, 0, CHARINDEX(' ', MusteriAdi)) from Musteriler
+
+
+Select SUBSTRING(MusteriAdi, CHARINDEX(' ', MusteriAdi), LEN(MusteriAdi) - (CHARINDEX(' ', MusteriAdi) - 1)) from Musteriler

@@ -1,0 +1,20 @@
+AGGREGATE Funksiyalar - Bir Tabledeki butun datalari ve setirleri emeliyyat etmeye imkan veren funksiyadir
+
+
+-------------------CODE-------------------
+
+
+
+Use Northwind
+
+
+Select AVG (PersonelId) from Personeller 
+
+Select MAX (PersonelId) from Personeller 
+
+Select MIN (PersonelId) from Personeller 
+
+Select COUNT (*) from Personeller 
+Select COUNT (Adi) from Personeller 
+
+
